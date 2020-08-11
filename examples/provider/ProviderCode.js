@@ -4,7 +4,7 @@ import CodeWrapper from "../CodeWrapper";
 function ProviderCode() {
 
     const codeString = `import React from 'react';
-import DataList, { Column, FetchProvider } from 'react-data-list';
+import DataList, { Column, FetchProvider } from '@snakedin/react-data-list';
 
 function ProviderExample() {
     return (

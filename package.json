@@ -1,5 +1,5 @@
 {
-  "name": "react-data-list",
+  "name": "@snakedin/react-data-list",
   "version": "1.0.0",
   "description": "",
   "author": "",
@@ -55,6 +55,13 @@
     "dist/",
     "lib/"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/snakedin/react-data-list.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react",
     "data",

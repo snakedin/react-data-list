@@ -4,7 +4,7 @@ import CodeWrapper from "../CodeWrapper";
 function FilteringCode() {
 
     const codeString = `import React from 'react';
-import DataList, { Column, FetchProvider } from 'react-data-list';
+import DataList, { Column, FetchProvider } from '@snakedin/react-data-list';
 import 'react-modern-calendar-datepicker/lib/DatePicker.css';
 
 function FilteringExample() {

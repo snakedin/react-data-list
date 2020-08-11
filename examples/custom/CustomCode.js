@@ -4,7 +4,7 @@ import CodeWrapper from "../CodeWrapper";
 function CustomCode() {
 
     const codeString = `import React from 'react';
-import DataList, { Column, FetchProvider } from 'react-data-list';
+import DataList, { Column, FetchProvider } from '@snakedin/react-data-list';
 
 class CustomFilter extends Component {
 

@@ -4,7 +4,7 @@ import CodeWrapper from "../CodeWrapper";
 function RouterCode() {
 
     const codeString = `import React from 'react';
-import { RouterDataList as DataList, FetchProvider, Column } from 'react-data-list';
+import { RouterDataList as DataList, FetchProvider, Column } from '@snakedin/react-data-list';
 
 function RouterExample() {
     return (

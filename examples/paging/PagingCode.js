@@ -4,7 +4,7 @@ import CodeWrapper from "../CodeWrapper";
 function PagingCode() {
 
     const codeString = `import React from 'react';
-import DataList, { Column } from 'react-data-list';
+import DataList, { Column } from '@snakedin/react-data-list';
 
 function PagingExample() {
     return (
