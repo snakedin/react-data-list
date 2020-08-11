@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCell render 1`] = `
+<tr>
+  <td>
+    Test Value
+  </td>
+</tr>
+`;
+
+exports[`ContentCell render 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+-   <td>
+-     Test Value
+-   </td>
++   <td />
+  </tr>"
+`;
+
+exports[`ContentCell render 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+-   <td>
++   <td
++     class=\\"content-cell\\"
++   >
+      Test Value
+    </td>
+  </tr>"
+`;
+
+exports[`ContentCell render 4`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+    <td>
++     <span>
++       11
++       : 
+        Test Value
++     </span>
+    </td>
+  </tr>"
+`;

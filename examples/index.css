@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.example-app {
+  max-width: 1480px;
+  margin: 20px auto 100px auto;
+}
+
+.example-app > div {
+  margin-bottom: 20px;
+}
+
+div.data-list th span {
+  font-weight: 700;
+}
+
+.example-app .nav-tabs a.nav-link {
+  cursor: pointer!important;
+}

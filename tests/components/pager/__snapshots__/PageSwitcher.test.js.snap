@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pager/PageSwitcher render 1`] = `
+<DocumentFragment>
+  <ul
+    class="pagination mb-0 justify-content-center justify-content-lg-start"
+  >
+    <li
+      class="page-item disabled"
+    >
+      <button
+        class="page-link"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+        >
+          «
+        </span>
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        aria-label="Next"
+        class="page-link"
+      >
+        <span
+          aria-hidden="true"
+        >
+          »
+        </span>
+      </button>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`pager/PageSwitcher render 2`] = `
+<DocumentFragment>
+  <ul
+    class="pagination mb-0 justify-content-center justify-content-lg-start"
+  >
+    <li
+      class="page-item"
+    >
+      <button
+        aria-label="Previous"
+        class="page-link"
+      >
+        <span
+          aria-hidden="true"
+        >
+          «
+        </span>
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        aria-label="Next"
+        class="page-link"
+      >
+        <span
+          aria-hidden="true"
+        >
+          »
+        </span>
+      </button>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`pager/PageSwitcher render 3`] = `
+<DocumentFragment>
+  <ul
+    class="pagination mb-0 justify-content-center justify-content-lg-start"
+  >
+    <li
+      class="page-item"
+    >
+      <button
+        aria-label="Previous"
+        class="page-link"
+      >
+        <span
+          aria-hidden="true"
+        >
+          «
+        </span>
+      </button>
+    </li>
+    <li
+      class="page-item disabled"
+    >
+      <button
+        class="page-link"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+        >
+          »
+        </span>
+      </button>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pager/Paginator render 1`] = `
+<DocumentFragment>
+  <ul
+    class="pagination mb-0 justify-content-center justify-content-lg-start"
+  >
+    <li
+      class="page-item disabled"
+    >
+      <button
+        class="page-link"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+        >
+          «
+        </span>
+      </button>
+    </li>
+    <li
+      class="page-item active"
+    >
+      <button
+        class="page-link"
+      >
+        1
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        2
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        3
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        4
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        5
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        6
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        7
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        8
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        9
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        class="page-link"
+      >
+        10
+      </button>
+    </li>
+    <li
+      class="page-item"
+    >
+      <button
+        aria-label="Next"
+        class="page-link"
+      >
+        <span
+          aria-hidden="true"
+        >
+          »
+        </span>
+      </button>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`pager/Paginator render 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,25 +1,25 @@
+  <DocumentFragment>
+    <ul
+      class=\\"pagination mb-0 justify-content-center justify-content-lg-start\\"
+    >
+      <li
+-       class=\\"page-item disabled\\"
++       class=\\"page-item\\"
+      >
+        <button
++         aria-label=\\"Previous\\"
+          class=\\"page-link\\"
+-         tabindex=\\"-1\\"
+        >
+          <span
+            aria-hidden=\\"true\\"
+          >
+            «
+          </span>
+        </button>
+      </li>
+      <li
+-       class=\\"page-item active\\"
++       class=\\"page-item\\"
+      >
+        <button
+          class=\\"page-link\\"
+        >
+          1
+@@ -51,11 +51,11 @@
+        >
+          4
+        </button>
+      </li>
+      <li
+-       class=\\"page-item\\"
++       class=\\"page-item active\\"
+      >
+        <button
+          class=\\"page-link\\"
+        >
+          5"
+`;
+
+exports[`pager/Paginator render 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -51,11 +51,11 @@
+        >
+          4
+        </button>
+      </li>
+      <li
+-       class=\\"page-item active\\"
++       class=\\"page-item\\"
+      >
+        <button
+          class=\\"page-link\\"
+        >
+          5
+@@ -96,24 +96,24 @@
+        >
+          9
+        </button>
+      </li>
+      <li
+-       class=\\"page-item\\"
++       class=\\"page-item active\\"
+      >
+        <button
+          class=\\"page-link\\"
+        >
+          10
+        </button>
+      </li>
+      <li
+-       class=\\"page-item\\"
++       class=\\"page-item disabled\\"
+      >
+        <button
+-         aria-label=\\"Next\\"
+          class=\\"page-link\\"
++         tabindex=\\"-1\\"
+        >
+          <span
+            aria-hidden=\\"true\\"
+          >
+            »"
+`;

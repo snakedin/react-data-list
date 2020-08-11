@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderCell render 1`] = `
+<tr>
+  <th
+    scope="col"
+  >
+    <span
+      class="btn btn-sm btn-link asc"
+    >
+      Name
+    </span>
+  </th>
+</tr>
+`;
+
+exports[`HeaderCell render 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,8 @@
+  <tr>
+    <th
++     class=\\"header-cell\\"
+      scope=\\"col\\"
+    >
+      <span
+        class=\\"btn btn-sm btn-link asc\\"
+      >"
+`;
+
+exports[`HeaderCell render 3`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -3,9 +3,9 @@
+      scope=\\"col\\"
+    >
+      <span
+        class=\\"btn btn-sm btn-link asc\\"
+      >
+-       Name
++       User Name
+      </span>
+    </th>
+  </tr>"
+`;
+
+exports[`HeaderCell render 4`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+    <th
+      scope=\\"col\\"
+    >
+      <span
+-       class=\\"btn btn-sm btn-link asc\\"
++       class=\\"btn btn-sm\\"
+      >
+        Name
+      </span>
+    </th>
+  </tr>"
+`;
+
+exports[`HeaderCell render 5`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+    <th
+      scope=\\"col\\"
+    >
+      <span
+-       class=\\"btn btn-sm btn-link asc\\"
++       class=\\"btn btn-sm btn-link asc active\\"
+      >
+        Name
+      </span>
+    </th>
+  </tr>"
+`;
+
+exports[`HeaderCell render 6`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+    <th
+      scope=\\"col\\"
+    >
+      <span
+-       class=\\"btn btn-sm btn-link asc\\"
++       class=\\"btn btn-sm btn-link desc active\\"
+      >
+        Name
+      </span>
+    </th>
+  </tr>"
+`;
+
+exports[`HeaderCell render 7`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  <tr>
+    <th
+      scope=\\"col\\"
+    >
+      <span
+-       class=\\"btn btn-sm btn-link asc\\"
++       class=\\"btn btn-sm btn-link asc active\\"
+      >
+        Name
+      </span>
+    </th>
+  </tr>"
+`;

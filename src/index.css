@@ -1,0 +1,11 @@
+div.data-list th span.active {
+    color: #28c38a;
+}
+
+div.data-list th span.active.asc:after {
+    content: ' \2191';
+}
+
+div.data-list th span.active.desc:after {
+    content: ' \2193';
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pager/Summary render 1`] = `
+<DocumentFragment>
+  <span>
+    Showing 
+    <b>
+      31-45
+    </b>
+     of 
+    <b>
+      100
+    </b>
+     items.
+  </span>
+</DocumentFragment>
+`;

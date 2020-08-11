@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterCell render 1`] = `
+<tr>
+  <td>
+    <input
+      class="form-control"
+      type="text"
+      value=""
+    />
+  </td>
+</tr>
+`;
+
+exports[`FilterCell render 2`] = `
+<tr>
+  <td>
+    <select
+      class="form-control"
+    >
+      <option
+        value="1"
+      >
+        Item 1
+      </option>
+      <option
+        selected=""
+        value="2"
+      >
+        Item 2
+      </option>
+      <option
+        value="3"
+      >
+        Item 3
+      </option>
+    </select>
+  </td>
+</tr>
+`;

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataList render: #1 error on component without any props 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Error 
+    </h1>
+    <p>
+      [Error]: Unknown provider type
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DataList render: #2 error on empty columns 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Error 
+    </h1>
+    <p>
+      At least one column is required
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DataList render: #3 error on empty provider 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Error 
+    </h1>
+    <p>
+      [Error]: Unknown provider type
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DataList render: #4 all default props 1`] = `
+<DocumentFragment>
+  <div
+    class="data-list"
+  >
+    <div>
+      <table
+        class="table table-striped table-hover table-bordered"
+      >
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              <span
+                class="btn btn-sm btn-link asc"
+              >
+                Id
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input
+                class="form-control"
+                type="text"
+                value=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`DataList render: #5 without sorting and filtering 1`] = `
+<DocumentFragment>
+  <div
+    class="data-list"
+  >
+    <div>
+      <table
+        class="table table-striped table-hover table-bordered"
+      >
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              <span
+                class="btn btn-sm"
+              >
+                Id
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;

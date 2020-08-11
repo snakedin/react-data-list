@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pager/SizeSwitcher render 1`] = `
+<DocumentFragment>
+  <select
+    class="form-control"
+  >
+    <option
+      selected=""
+      value="10"
+    >
+      10
+    </option>
+    <option
+      value="20"
+    >
+      20
+    </option>
+    <option
+      value="30"
+    >
+      30
+    </option>
+  </select>
+</DocumentFragment>
+`;

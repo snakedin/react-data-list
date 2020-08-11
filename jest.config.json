@@ -1,0 +1,7 @@
+{
+  "moduleNameMapper": {
+    "\\.(css|less)$": "<rootDir>/tests/mocks/styleMock.js"
+  },
+  "setupFilesAfterEnv": [ "./tests/setupTests.js" ],
+  "testMatch": [ "**/tests/*.test.js", "**/tests/**/*.test.js" ]
+}
