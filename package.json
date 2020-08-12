@@ -1,6 +1,6 @@
 {
   "name": "@snakedin/react-data-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "",
   "license": "MIT",
@@ -56,8 +56,8 @@
     "lib/"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/snakedin/react-data-list.git"
+    "type": "git",
+    "url": "https://github.com/snakedin/react-data-list.git"
   },
   "publishConfig": {
     "access": "public"
