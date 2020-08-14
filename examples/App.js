@@ -15,7 +15,7 @@ function App() {
             <Router>
                 <div className="container-fluid">
                     <div className="row mb-3">
-                        <h1>React DataList examples</h1>
+                        <h1><a href="https://github.com/snakedin/react-data-list" target="_blank">React DataList</a> examples</h1>
                     </div>
 
                     <div className="row">
@@ -31,7 +31,7 @@ function App() {
                             </div>
 
                             <div className="alert alert-success" role="alert" style={{marginTop: '1rem'}}>
-                                Check out the install guide and API reference on <a href="https://rawg.io/apidocs" target="_blank">Github</a>
+                                Check out the install guide and API reference on <a href="https://github.com/snakedin/react-data-list" target="_blank">Github</a>
                             </div>
                         </div>
 

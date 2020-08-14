@@ -27,8 +27,7 @@ const provider = async (pager) => {
             return ['id', 'name', 'slug', 'games_count']
                 .reduce((obj, key) => ({ ...obj, [key]: item[key] }), {});
         }),
-        count: response.count,
-        pager
+        count: response.count
     }
 };
 
