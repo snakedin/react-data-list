@@ -17,6 +17,16 @@ By default, DataList uses [Bootstrap](https://getbootstrap.com/) styles to show 
 import '@snakedin/react-data-list/dist/themes/without-bootstrap.css';
 ~~~
 
+## Demo examples
+
+* [Features demo](https://react-data-list.herokuapp.com/demo/)
+* [Static data](https://react-data-list.herokuapp.com/static/)
+* [Paging and sorting](https://react-data-list.herokuapp.com/paging/)
+* [FetchProvider helper](https://react-data-list.herokuapp.com/provider/)
+* [Advanced filtering](https://react-data-list.herokuapp.com/filtering/)
+* [ReactRouter helper](https://react-data-list.herokuapp.com/router/?page=2&pageSize=10&sortBy=-averageRating&filter={%22categories%22%3A%22fantasy%22%2C%22ageRating%22%3A%22R%22})
+* [Custom filters](https://react-data-list.herokuapp.com/custom/)
+
 ## API Reference
 
 #### DataList
@@ -30,7 +40,7 @@ import '@snakedin/react-data-list/dist/themes/without-bootstrap.css';
 |defaultFilter|Object|Initial filter values (`name: value`)|`{}`|
 |defaultPager|Object|Initial pager and sort by values|`{ page: 1, pageSize: 10, sortBy: ''}`|
 |enableSorting|Boolean|To disable sorting for all columns, set this param to `false`|`true`|
-|extractId|Function|A function <br/><br/>By default component will use the `id` key.|`(item) => item.id`|
+|extractId|Function|This function can be used to extract each row unique key.<br/><br/>By default component will use the `id` key.|`(item) => item.id`|
 |locale|Object|Object with localized interface elements.|`{}`|
 |onError|Function|This function can be used to override the default errors handler.||
 |onParamsChanged|Function|This function can be used to override the default params changing behaviour.||
@@ -58,3 +68,12 @@ import '@snakedin/react-data-list/dist/themes/without-bootstrap.css';
 |label|String|Label to be displayed in the header cell. If this property is not set, `id` of the column will be used.||
 |sort|String, Boolean|If `true` is passed, column's `id` will be used for sorting.<br/>If `string` is passed, this string will be used for sorting. <br/>If `false` is passed, sorting will be disabled for this column.|`true`|
 |value|Function|By default, `item[Column's ID]` will be used to display in the cell.<br/><br/>This function can be used to change the rendered value in the cell.||
+
+## Development
+
+If you want to experiment with examples in your local environment:
+~~~
+$ git clone https://github.com/snakedin/react-data-list.git .
+$ npm install 
+$ npm start
+~~~
